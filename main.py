@@ -22,7 +22,7 @@ def main():
             print("Grok error:", repr(e))
     else:
         print("Grok API key missing!")
-'''
+
     # Test Gemini
     if os.getenv("GOOGLE_API_KEY"):
         try:
@@ -36,7 +36,7 @@ def main():
             print("Gemini error:", e)
     else:
         print("Gemini API key missing!")
-'''
+
 
 if __name__ == "__main__":
     main()
